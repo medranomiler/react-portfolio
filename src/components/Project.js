@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './assets/styles/project.css'
 function Project(){
     
     return(
-        <div>
+        <div className="project">
             <main>
                 <h3>
                     Project
