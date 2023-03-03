@@ -6,16 +6,15 @@ function Project(){
     return(
         <div className="project">
             <main className="content">
-                <p className="heading">
+            <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
                     About Me
-                </p>
+            </h1>
                 <img
                 src={headshot}
                 />
-                <p className="paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                <blockquote class="text-2xl italic font-semibold text-gray-900 mt-5">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </blockquote>
             </main>
         </div>
 )}
