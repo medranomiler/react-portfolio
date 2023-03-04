@@ -1,19 +1,7 @@
 .project{
-    height:600px;
+    min-height:600px;
     background-color: grey;
 }
 .content{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
     padding: 40px;
 }
-
-.heading{
-    font-size: 60px;
-    margin-right: 40px;
-}
-/* .paragraph{
-    font-size: 20px;
-    margin-top: 20px;
-} */
