@@ -1,9 +1,12 @@
 import React from 'react';
 import './assets/styles/project.css'
-import picOne from "./assets/images/imgOne.png"
-import Img2 from "./assets/images/img2.png"
-import Img3 from "./assets/images/img3.jpg"
-import Img4 from "./assets/images/img4.jpg"
+import Img1 from "./assets/images/picOne.png"
+import Img2 from "./assets/images/picTwo.png"
+import Img3 from "./assets/images/picThree.png"
+import Img4 from "./assets/images/picFour.png"
+import Img5 from "./assets/images/picFive.png"
+import Img6 from "./assets/images/picSix.png"
+
 
 function Portfolio(){   
     return(
@@ -14,19 +17,69 @@ function Portfolio(){
 </h1>
 <div class="grid grid-cols-2 gap-4">
 <div>
-<img class="rounded-lg" src={picOne} alt="image description" />
+<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+<a href="https://space-defence.herokuapp.com/">
+<img class="rounded-lg" src={Img1} alt="image description" />
+</a>
+<figcaption class="absolute px-4 text-lg text-white bottom-6">
+      <p>Space Defence</p>
+  </figcaption>
+</figure>
 </div>
 
 <div>
+<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+<a href="https://my-notes.herokuapp.com/">
 <img class="rounded-lg" src={Img2} alt="image description"/>
+</a>
+<figcaption class="absolute px-4 text-lg text-white bottom-6">
+      <p>My Notes</p>
+  </figcaption>
+</figure>
 </div>
 
 <div>
+<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+<a href="https://not-just-another-text-editor.herokuapp.com/">
 <img class="rounded-lg" src={Img3} alt="image description" />
+</a>
+<figcaption class="absolute px-4 text-lg text-white bottom-6">
+      <p>Just Another Text Editor</p>
+  </figcaption>
+</figure>
 </div>
 
 <div>
+<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+<a href="https://medranomiler.github.io/weather-dashboard/">
 <img class="rounded-lg" src={Img4} alt="image description" />
+</a>
+<figcaption class="absolute px-4 text-lg text-white bottom-6">
+      <p>Weather Dashboard</p>
+  </figcaption>
+</figure>
+</div>
+
+<div>
+<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+<a href="https://the-tech-blog.herokuapp.com/">
+<img class="rounded-lg" src={Img5} alt="image description" />
+</a>
+<figcaption class="absolute px-4 text-lg text-white bottom-6">
+      <p>The Tech Blog</p>
+  </figcaption>
+</figure>
+</div>
+
+<div>
+<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+<a href="https://github.com/medranomiler/readme-generator">    
+<img class="rounded-lg" src={Img6} alt="image description" />
+</a>
+<figcaption class="absolute px-4 text-lg text-white bottom-6">
+      <p>ReadMe Generator</p>
+  </figcaption>
+</figure>
 </div>
 </div>
 </main>
