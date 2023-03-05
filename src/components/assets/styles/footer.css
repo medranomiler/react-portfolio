@@ -1,6 +1,6 @@
 .footer{
     height: 150px;
-    background-color:black;
+    background-image: url('https://cdn.pixabay.com/photo/2012/02/25/19/11/nightsky-16967_640.jpg');
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,8 +12,4 @@
     margin-left: 20px;
     margin-right: 20px;
     color: white;
-}
-
-.links:hover{
-    color: blue;
 }

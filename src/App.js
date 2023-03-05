@@ -1,14 +1,19 @@
 import React from "react";
 import Header from './components/Header'
-import Nav from './components/Nav'
 import AboutMe from './components/AboutMe'
 import Portfolio from "./components/Portfolio";
 import Footer from './components/Footer'
 import Resume from './components/Resume'
 import Contact from "./components/Contact";
+import Logo from "./components/assets/images/logo.png"
 import {useState} from "react"
+import "./components/assets/styles/app.css"
+
+
+
 
 function App() {
+
 const [content, setContent] = useState(false)
 
 
@@ -34,10 +39,19 @@ const [content, setContent] = useState(false)
   }
 
   return (
-    <div>
-      <Nav />
-      <div>
-        <ul class="flex md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white cursor-pointer">
+    <div class="body">
+      <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5">
+  <div class="container flex flex-wrap items-center justify-between mx-auto">
+    <div class="flex items-center">
+        <img 
+        src={Logo}
+        class="h-6 sm:h-6" alt="Logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap">React Portfolio</span>
+    </div>
+  </div>
+
+  <div class="navLinks">
+        <ul class="flex md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white cursor-pointer">
         <li>
           <p 
           onClick={aboutMeHandler} 
@@ -60,6 +74,9 @@ const [content, setContent] = useState(false)
         </li>
       </ul>
         </div>
+
+</nav>
+
       <Header />
       {!content ? <AboutMe />: null}
       {content}
