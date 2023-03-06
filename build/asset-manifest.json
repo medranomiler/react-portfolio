@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.92635f57.css",
-    "main.js": "/react-portfolio/static/js/main.43ba90d9.js",
-    "static/media/picOne.png": "/react-portfolio/static/media/picOne.ce78e3402a049ae59eb1.png",
+    "main.js": "/react-portfolio/static/js/main.8785e92b.js",
     "static/media/picSix.png": "/react-portfolio/static/media/picSix.33d22a4d2de944a8d4ee.png",
     "static/media/picFour.png": "/react-portfolio/static/media/picFour.3d66889ef2237771f771.png",
-    "static/media/picTwo.png": "/react-portfolio/static/media/picTwo.2b7d682641f6492a647c.png",
     "static/media/picFive.png": "/react-portfolio/static/media/picFive.f55936450f9a352b2b56.png",
-    "static/media/picThree.png": "/react-portfolio/static/media/picThree.ab2eb085564202807ca4.png",
+    "static/media/space-defence.png": "/react-portfolio/static/media/space-defence.80a1c790dc6b6a0bdee0.png",
+    "static/media/jate.png": "/react-portfolio/static/media/jate.cc3da0f16af194330bd5.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.669fd5e51774a160dcf5.png",
     "static/media/headshot.png": "/react-portfolio/static/media/headshot.cf1a82b808ee5afe23cb.png",
     "index.html": "/react-portfolio/index.html",
     "main.92635f57.css.map": "/react-portfolio/static/css/main.92635f57.css.map",
-    "main.43ba90d9.js.map": "/react-portfolio/static/js/main.43ba90d9.js.map"
+    "main.8785e92b.js.map": "/react-portfolio/static/js/main.8785e92b.js.map"
   },
   "entrypoints": [
     "static/css/main.92635f57.css",
-    "static/js/main.43ba90d9.js"
+    "static/js/main.8785e92b.js"
   ]
 }
