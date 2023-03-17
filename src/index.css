@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.body{
+    background-image: url('https://cdn.pixabay.com/photo/2012/02/25/19/11/nightsky-16967_640.jpg');
+    min-height: 100vh;
+}
+.navLinks{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}

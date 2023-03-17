@@ -1,5 +1,4 @@
 import React from 'react';
-import './assets/styles/project.css'
 import Img1 from "./assets/images/space-defence.png"
 import Img2 from "./assets/images/picFour.png"
 import Img3 from "./assets/images/jate.png"
@@ -10,14 +9,14 @@ import Img6 from "./assets/images/picSix.png"
 
 function Portfolio(){   
     return(
-<div className="project">
+<div className="bg-transparent p-10">
 <main className="content">
-<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
+<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-slate-50 md:text-5xl lg:text-6xl">
         Portfolio
 </h1>
-<div class="grid grid-cols-2 gap-4">
+<div class="lg:grid lg:grid-cols-2 lg:gap-4 sm:grid sm:grid-cols-1 sm:gap-8 grid grid-cols-1 gap-8">
 <div>
-<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 hover:scale-105 p-2">
 <a href="https://space-defence.herokuapp.com/">
 <img class="rounded-lg" src={Img1}/>
 </a>
@@ -28,7 +27,7 @@ function Portfolio(){
 </div>
 
 <div>
-<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 hover:scale-105 p-2">
 <a href="https://my-notes.herokuapp.com/">
 <img class="rounded-lg" src={Img2}/>
 </a>
@@ -39,7 +38,7 @@ function Portfolio(){
 </div>
 
 <div>
-<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 hover:scale-105 p-2">
 <a href="https://not-just-another-text-editor.herokuapp.com/">
 <img class="rounded-lg" src={Img3}/>
 </a>
@@ -50,7 +49,7 @@ function Portfolio(){
 </div>
 
 <div>
-<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 hover:scale-105 p-2">
 <a href="https://medranomiler.github.io/weather-dashboard/">
 <img class="rounded-lg" src={Img4} />
 </a>
@@ -61,7 +60,7 @@ function Portfolio(){
 </div>
 
 <div>
-<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 hover:scale-105 p-2">
 <a href="https://the-tech-blog.herokuapp.com/">
 <img class="rounded-lg" src={Img5}/>
 </a>
@@ -72,7 +71,7 @@ function Portfolio(){
 </div>
 
 <div>
-<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+<figure class="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 hover:scale-105 p-2">
 <a href="https://github.com/medranomiler/readme-generator">    
 <img class="rounded-lg" src={Img6}/>
 </a>
